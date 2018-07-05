@@ -23,104 +23,53 @@
 		"waveRight": 1280,
 		"waveColor": "#000000"
 	},
-	"Basic": {
-		"backgroundColor": "#eee",
-		"captionColor": "#de1e3d",
-		"waveColor": "#de1e3d"
-	},
-	"Neon": {
-		"backgroundColor": "#556270",
-		"captionColor": "#c7f464",
-		"waveColor": "#c7f464"
-	},
-	"Background image with top right text": {
-		"captionAlign": "right",
-		"captionTop": 60,
-		"captionRight": 1220,
-		"captionLeft": 640,
-		"backgroundImage": "subway.jpg",
-		"captionColor": "#fc0fc0",
-		"waveColor": "#fc0fc0",
-		"waveBottom": 660,
-		"waveTop": 320
-	},
-	"Bars": {
-		"pattern": "bars",
-		"captionColor": "#d84a4a",
-		"waveColor": "#d84a4a"
-	},
-	"Rounded bars with bottom left text": {
-		"pattern": "roundBars",
-		"captionColor": "#d84a4a",
-		"waveColor": "#d84a4a",
+	"Black background - Twitter": {
+		"backgroundImage": "twitter-black.png",
+		"width": 1280,
+		"height": 720,
+		"captionColor": "#ffffff",
 		"captionAlign": "left",
-		"captionLeft": 60,
-		"captionRight": 640,
-		"captionBottom": 660,
-		"captionTop": null
+		"captionFont": "300 30px 'Serif - SFC'",
+		"pattern": "bars",
+		"waveTop": 210,
+		"waveBottom": 310,
+		"waveColor": "#ffffff"
 	},
-	"Line": {
-		"backgroundColor": "#edc951",
-		"captionColor": "#00a0b0",
-		"waveColor": "#00a0b0",
-		"pattern": "line"
+	"White background - Twitter": {
+		"backgroundImage": "twitter-white.png",
+		"width": 1280,
+		"height": 720,
+		"captionColor": "#000000",
+		"captionAlign": "left",
+		"captionFont": "300 52px 'Serif - SFC'",
+		"pattern": "bars",
+		"waveTop": 210,
+		"waveBottom": 310,
+		"waveColor": "#000000"
 	},
-	"Curve": {
-		"backgroundColor": "#00a0b0",
-		"captionColor": "#edc951",
-		"waveColor": "#edc951",
-		"pattern": "curve"
-	},
-	"Bricks": {
-		"backgroundColor": "#8771aa",
+	"Black background - Insta": {
+		"backgroundImage": "insta-black.png",
+		"width": 720,
+		"height": 720,
 		"captionColor": "#ffffff",
-		"waveColor": "#ffffff",
-		"pattern": "bricks"
+		"captionAlign": "left",
+		"captionFont": "300 52px 'Serif - SFC'",
+		"pattern": "bars",
+		"waveTop": 210,
+		"waveBottom": 310,
+		"waveColor": "#ffffff"
 	},
-	"Equalizer on the bottom": {
-		"backgroundColor": "#222",
-		"captionColor": "#ffffff",
-		"waveColor": "#ffffff",
-		"pattern": "equalizer",
-		"captionTop": 40,
-		"captionBottom": 380,
-		"waveTop": 420,
-		"waveBottom": 720
-	},
-	"Bold italic orange": {
-		"captionAlign": "right",
-		"captionTop": null,
-		"captionBottom": 660,
-		"captionRight": 1220,
-		"captionLeft": 640,
-		"backgroundColor": "#fd5a1e",
-		"waveColor": "#fff",
-		"captionFont": "bold italic 52px 'Source Sans Pro'"
-	},
-	"Pixelated": {
-		"backgroundColor": "#ecd078",
-		"captionColor": "#c02942",
-		"waveColor": "#c02942",
-		"pattern": "pixel"
-	},
-	"Square with background image": {
-		"width": 640,
-		"height": 640,
-		"samplesPerFrame": 64,
-		"waveTop": 20,
-		"waveBottom": 300,
-		"captionTop": 340,
-		"captionLeft": 20,
-		"captionRight": 620,
-		"captionColor": "#0eb8ba",
-		"waveColor": "#0eb8ba",
-		"backgroundImage": "nyc.png"
-	},
-	"Three colors": {
-		"backgroundColor": "#eeeeee",
-		"captionColor": "#515151",
-		"waveTop": 100,
-		"waveBottom": 500,
-		"waveColor": "#53fe64"
+	"White background - Insta": {
+		"backgroundImage": "insta-white.png",
+		"width": 720,
+		"height": 720,
+		"captionColor": "#000000",
+		"captionAlign": "left",
+		"captionFont": "300 52px 'Serif - SFC'",
+		"pattern": "bars",
+		"waveTop": 210,
+		"waveBottom": 310,
+		"waveColor": "#000000",
+		"creditFont": "300 52px 'Source Sans Pro'"
 	}
 }
